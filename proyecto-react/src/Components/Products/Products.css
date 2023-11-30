@@ -1,0 +1,75 @@
+body{
+    font-size: 62.5%;
+}
+
+
+.releases-title {
+    padding-left: 5em;
+    width: 33em;
+}
+
+
+.realeses-img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.realases-products {
+    padding: 1em 2em;
+    cursor: pointer;
+    position: relative;
+}
+
+.realeses-type {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 1rem;
+    padding: .35em 0;
+    text-transform: uppercase;
+}
+
+.realeses-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    padding: .35em 0;
+}
+
+.realeses-price {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    padding: .35em 0;
+}
+
+.realeses-installments {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #414dff;
+    font-size: .89em;
+    padding: .35em 0;
+}
+
+.add-icon{
+    background-color: #fff;
+    width: 1.6rem;
+    height: 1.7rem;
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border-radius: 1rem;
+    text-align: center;
+    margin: .3rem;
+    padding: .1rem;
+    right: 1.5rem;
+
+    transition: all .3s;
+}
+
+.add-icon:hover{
+    background-color: rgb(29, 209, 29);
+    color: #fff;
+}
